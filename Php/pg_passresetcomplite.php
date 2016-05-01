@@ -14,11 +14,11 @@
 		mysqli_query($connect,$query);
 		$query= 'UPDATE user SET usergencode = "0" WHERE username= "'.$sendusername.'"' ;
 		mysqli_query($connect,$query);
-		echo 'Your Password has been updated !!!';
+		echo '<div class=\"correctness\">Your Password has been updated !!!</div>';
 		
 	}
 	else {
-		echo 'Passwords does not match !!!';
+		echo '<div class=\"error\">Passwords does not match !!!</div>';
 	};
 ?>
 <?php 
