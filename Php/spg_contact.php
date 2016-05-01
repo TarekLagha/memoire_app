@@ -4,7 +4,7 @@
 	<div id="page">
 		<div class="center">
 			<div class="title">Contact us</div>			
-			<form method="post" action="send_msg.php">
+			<form method="post" action="db_sendmsg.php">
 				<center>
 					<table >
 						<tr>
@@ -36,6 +36,7 @@
 			</form>
 		</div>
 	</div>
+
 <?php 
 	include("include_footer.php");
 ?>

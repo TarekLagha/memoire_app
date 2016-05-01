@@ -21,23 +21,11 @@
 					$_SESSION['username']=$dbusername;
 					header('Location: pg_welcome.php');
 				}else 
-					echo "
-						<br />
-						<br />
-						<br />
-						<center> Incorrect Username or Password !!!<center/>";
+					echo "<div class=\"correctness\">Incorrect Username or Password !!!</div>";
 			}else 
-				echo "
-						<br />
-						<br />
-						<br />
-						<center> Account is invalid <center/>";
+				echo "<div class=\"error\">Account is invalid </div>";
 		}else 
-			echo "
-				<br />
-				<br />
-				<br />
-				<center> Please check the fields !<center/>";
+			echo "<div class=\"error\">Please check the fields !</div>";
 	}; 
 ?>
 <?php 

@@ -16,7 +16,7 @@
 			$query = "INSERT INTO `user` (`userfullname`, `username`, `userpassword`,`usermail`, `userphone`) 
 					VALUES ('$fullname', '$username', '$password', '$email', '$phone')";
 			$result = mysqli_query($connect,$query);
-			echo "<div class=\"correctness\"> Registration Successful</div>";
+			echo "<div class=\"correctness\">Registration Successful</div>";
 		}else echo "<div class=\"error\">Sorry, Missing or inccorect fields.</div>";	 
 	}
 ?>

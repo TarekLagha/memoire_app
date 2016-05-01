@@ -4,10 +4,6 @@
 ?>
 
 <?php 
-
-     
-
-     mail($to, $subject, $message, $headers);
 	if (isset($_POST['submit']))
 	{
 		$username= $_POST['username'];
