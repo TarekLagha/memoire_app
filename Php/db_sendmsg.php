@@ -12,7 +12,7 @@
         echo "<div class=\"error\">Missing a require fields <a href='spg_contact.php'>try again</a>.</div>";
         }
     else{   
-		$to='myemail@gmail.com';	
+		$to='xdzxfireboyx@gmail.com';	
 		$name=$first_name.' '.$last_name.' Phone : '.$phone;
         $header="From: $name <$email> \r\n Return-path: $email";
         $subject="Message sent to contact you ...";
