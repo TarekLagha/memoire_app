@@ -1,0 +1,32 @@
+[01-May-2016 10:15:51 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/ubuntu/workspace/Php/db_connect.php on line 2
+[01-May-2016 10:15:51 UTC] PHP Stack trace:
+[01-May-2016 10:15:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/Php/db_login.php:0
+[01-May-2016 10:15:51 UTC] PHP   2. require_once() /home/ubuntu/workspace/Php/db_login.php:5
+[01-May-2016 10:15:51 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/Php/db_connect.php:2
+[01-May-2016 10:15:51 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/ubuntu/workspace/Php/db_connect.php on line 4
+[01-May-2016 10:15:51 UTC] PHP Stack trace:
+[01-May-2016 10:15:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/Php/db_login.php:0
+[01-May-2016 10:15:51 UTC] PHP   2. require_once() /home/ubuntu/workspace/Php/db_login.php:5
+[01-May-2016 10:15:51 UTC] PHP   3. mysqli_error() /home/ubuntu/workspace/Php/db_connect.php:4
+[01-May-2016 10:15:51 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/Php/db_connect.php on line 7
+[01-May-2016 10:15:51 UTC] PHP Stack trace:
+[01-May-2016 10:15:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/Php/db_login.php:0
+[01-May-2016 10:15:51 UTC] PHP   2. require_once() /home/ubuntu/workspace/Php/db_login.php:5
+[01-May-2016 10:15:51 UTC] PHP   3. mysqli_select_db() /home/ubuntu/workspace/Php/db_connect.php:7
+[01-May-2016 10:15:51 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/ubuntu/workspace/Php/db_connect.php on line 9
+[01-May-2016 10:15:51 UTC] PHP Stack trace:
+[01-May-2016 10:15:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/Php/db_login.php:0
+[01-May-2016 10:15:51 UTC] PHP   2. require_once() /home/ubuntu/workspace/Php/db_login.php:5
+[01-May-2016 10:15:51 UTC] PHP   3. mysqli_error() /home/ubuntu/workspace/Php/db_connect.php:9
+[01-May-2016 10:15:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/Php/db_login.php on line 13
+[01-May-2016 10:15:51 UTC] PHP Stack trace:
+[01-May-2016 10:15:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/Php/db_login.php:0
+[01-May-2016 10:15:51 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/Php/db_login.php:13
+[01-May-2016 10:15:51 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/Php/db_login.php on line 14
+[01-May-2016 10:15:51 UTC] PHP Stack trace:
+[01-May-2016 10:15:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/Php/db_login.php:0
+[01-May-2016 10:15:51 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/Php/db_login.php:14
+[01-May-2016 10:15:51 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/Php/db_login.php on line 44
+[01-May-2016 10:15:51 UTC] PHP Stack trace:
+[01-May-2016 10:15:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/Php/db_login.php:0
+[01-May-2016 10:15:51 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/Php/db_login.php:44
