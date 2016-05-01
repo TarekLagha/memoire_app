@@ -9,23 +9,26 @@
 		$fullname = $_POST['fullname'];
 		$username = $_POST['username'];
 		$password = $_POST['password'];
+		$confirm_password = $_POST['confirm_password'];
 		$email = $_POST['email'];
 		$phone = $_POST['phone'];
-		if($fullname && $username && $password && $email){
-			$query = "INSERT INTO `user` (`userfullname`, `username`, `userpassword`,`usermail`, `userphone`) 
-						VALUES ('$fullname', '$username', '$password', '$email', '$phone')";
-			$result = mysqli_query($connect,$query);
-			echo "
+		if($password == $confirm_password){
+			if($fullname && $username && $password && $email){
+				$query = "INSERT INTO `user` (`userfullname`, `username`, `userpassword`,`usermail`, `userphone`) 
+							VALUES ('$fullname', '$username', '$password', '$email', '$phone')";
+				$result = mysqli_query($connect,$query);
+				echo "
+					<br />
+					<br />
+					<br />
+					<center> Registration Successful</center>";
+			}else echo "
 				<br />
 				<br />
 				<br />
-				<center> Registration Successful</center>";
-		}else echo "
-			<br />
-			<br />
-			<br />
-			<center> Sorry, Missing fields.</center>";
-	} 
+				<center> Sorry, Missing fields.</center>";
+		}else echo 'Incorrect password'; 
+	}
 ?>
 <?php 
 	mysqli_close($connect);
